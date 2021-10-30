@@ -6,9 +6,9 @@ It's not easy to set fullscreen for a [bilibili video](https://www.bilibili.com)
 This [chromium](https://www.chromium.org/) extension is here to solve the problem.
 
 ## Download
-Github Release
+[Github Release](https://github.com/Bluevect/BilibiliHelperForSeewo/releases)
 
-Gitee Release
+[Gitee Release](https://gitee.com/bluevect/BilibiliHelperForSeewo/releases)
 
 ## Usage
 1. Install the extension
