@@ -1,0 +1,17 @@
+{
+  "name": "BiliBili Helper for Seewo",
+  "description": "An simple extension that helps seewo devices set to bilibili fullscreen more fluently.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {},
+  "icons": {
+    "16": "/images/bhelper16.png",
+    "32": "/images/bhelper32.png",
+    "48": "/images/bhelper48.png",
+    "128": "/images/bhelper128.png"
+  }
+}
