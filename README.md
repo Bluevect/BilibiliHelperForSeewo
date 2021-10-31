@@ -17,4 +17,5 @@ This [chromium](https://www.chromium.org/) extension is here to solve the proble
 3. Click the extension icon to set fullscreen
 
 ## Credits
-[Chrome Extension Development Documentation](https://developer.chrome.com/docs/extensions/)
+- [Chrome Extension Development Documentation](https://developer.chrome.com/docs/extensions/)
+- Icon Source https://www.bilibili.com/favicon.ico?v=1
