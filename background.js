@@ -52,8 +52,14 @@ function fullscreen() {
 function toggleDanmaku() {
 	// emulates clicking on the danmaku button
 	try {
-		let danmakuCheckbox = document.getElementsByClassName("bui-switch-input")[0];
-		danmakuCheckbox.click();
+		let elements = document.getElementsByClassName("bui-switch-input");
+		
+		for (let i = 0; i < elements.length; i++) {
+			if (elements[i].ariaLabel == "弹幕") {
+				let danmakuCheckbox = elements[i];
+				danmakuCheckbox.click();
+			}
+		}
 	} catch (e) {
 		alert("网站非 Bilibili 网站，打开弹幕失败！");
 	}
